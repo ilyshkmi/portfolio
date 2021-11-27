@@ -1,12 +1,13 @@
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+    title: 'Tuition Management System',
+    description: "Using React, Node.js, Express & MongoDB. The system is used to manage daily tuition activity such as student registration, payment records, subject registration and many more. This system is expected to be publish on production on 2nd quarter of 2022 with a small to medium tuition business owner as the potential clients.",
       image: '/images/1.png',
       tags: ['Mongo', 'Express', 'React', 'Node'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 0,
+    status: 'ongoing',
   },
   {
     title: 'E-Commerce',
@@ -16,6 +17,7 @@ export const projects = [
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 1,
+    status: 'completed',
   },
   {
     title: 'WebRTC App',
@@ -25,6 +27,7 @@ export const projects = [
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 2,
+    status: 'Next project'
   },
   {
     title: 'Unichat',
@@ -34,6 +37,7 @@ export const projects = [
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 3,
+    status: 'next project',
   },
 ];
 
@@ -43,4 +47,31 @@ export const TimeLineData = [
   { year: 2019, text: 'Founded JavaScript Mastery', },
   { year: 2020, text: 'Shared my projects with the world', },
   { year: 2021, text: 'Started my own platform', },
+];
+
+export const technologies = [
+  {
+    name: "Front-End",
+    description: "Experience with React.js and Laravel",
+  },
+  {
+    name: "Back-End",
+    description: "Experience with Laravel and Node.js",
+  },
+  {
+    name: "Mobile App",
+    description: "Experience with React Native",
+  }
+];
+
+export const upcoming = [
+  {
+    title: 'Tuition Management System',
+    description: "Using React, Node.js, Express & MongoDB. The system is used to manage daily tuition activity such as student registration, payment records, subject registration and many more. This system is expected to be publish on production on 2nd quarter of 2022 with a small to medium tuition business owner as the potential clients.",
+      image: '/images/1.png',
+      tags: ['Mongo', 'Express', 'React', 'Node'],
+    source: 'https://google.com',
+    visit: 'https://google.com',
+    id: 0,
+  },
 ];

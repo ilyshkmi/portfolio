@@ -29,7 +29,7 @@ const Header = () =>  (
         <Link href="#about">
           <NavLink>About</NavLink>
         </Link>
-      </li>        
+      </li>      
     </Div2>
     <Div3>
       <SocialIcons href="https://github.com">

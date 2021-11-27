@@ -110,3 +110,21 @@ export const Tag = styled.li`
 color: #d8bfbf;
 font-size: 1.5rem;
 `
+
+export const Status = styled.h4`
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  padding: .5rem 0;
+  font-size: '1.5rem';
+`;
+
+export const Flag = styled.div`
+  position: absolute;
+  margin: 10px 0;
+  width: 150px;
+  height: 30px;
+  background: #d0bb57;
+  color: #000000;
+  text-align: center;
+`
