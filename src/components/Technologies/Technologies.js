@@ -21,8 +21,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experiece with <br />
-            Laravel and React.js
+            Experience with Laravel and React.js
           </ListParagraph>
         </ListContainer>
       </ListItem>

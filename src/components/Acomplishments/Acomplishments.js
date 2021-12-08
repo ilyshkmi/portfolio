@@ -1,23 +1,18 @@
 import React from 'react';
+import { certification } from '../../constants/constants';
 
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
-
-const data = [
-  { number: 20, text: 'Open Source Projects'},
-  { number: 1000, text: 'Students', },
-  { number: 1900, text: 'Github Followers', },
-  { number: 5000, text: 'Github Stars', }
-];
+import { Box, Boxes, BoxNum, BoxText, BoxTextDate } from './AcomplishmentsStyles';
 
 const Acomplishments = () => (
-  <Section>
-    <SectionTitle>Personal Achievements</SectionTitle>
+  <Section id="certification">
+    <SectionTitle>Certifications</SectionTitle>
     <Boxes>
-      {data.map((card, index) => (
+      {certification.map((card, index) => (
         <Box key={index}>
-          <BoxNum>{`${card.number}+`}</BoxNum>
-          <BoxText>{card.text}</BoxText>
+          <BoxNum>{card.provider}</BoxNum>
+          <BoxText>{card.title}</BoxText>
+          <BoxTextDate>{card.date}</BoxTextDate>
         </Box>
       ))}
     </Boxes>

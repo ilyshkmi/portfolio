@@ -29,17 +29,19 @@ const Header = () =>  (
         <Link href="#about">
           <NavLink>About</NavLink>
         </Link>
-      </li>      
+      </li>
+      <li>
+        <Link href="#certification">
+          <NavLink>Certification</NavLink>
+        </Link>
+      </li>     
     </Div2>
     <Div3>
-      <SocialIcons href="https://github.com">
+      <SocialIcons href="https://github.com/MuhdSaifulnizam15" target="_blank">
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://linkedin.com">
+      <SocialIcons href="https://www.linkedin.com/in/muhdsaifulnizam/" target="_blank">
         <AiFillLinkedin size="3rem" />
-      </SocialIcons>
-      <SocialIcons href="https://instagram.com">
-        <AiFillInstagram size="3rem"/>
       </SocialIcons>
     </Div3>
   </Container>

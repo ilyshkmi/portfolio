@@ -46,7 +46,10 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+      Software developer with around 1-year of experience in the mobile and web application field. 
+      Passionate in game development, web application development, and software development 
+      fields. Motivated, self-starting problem solver with a passion for code and design, who is also 
+      dedicated to lifelong learning..
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
@@ -86,7 +89,7 @@ const Timeline = () => {
                         <stop
                           offset="0.79478"
                           stop-color="white"
-                          stop-opacity="0"
+                          stopOpacity="0"
                         />
                       </linearGradient>
                     </defs>

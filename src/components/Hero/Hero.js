@@ -14,7 +14,8 @@ const Hero = (props) => (
       <SectionText>
         I am a Front End and Mobile App Developer
       </SectionText>
-      <Button onClick={props.handleClick}>Learn More</Button>
+      <Button onClick={props.handleClick}>Get Resume</Button>
+      <Button onClick={props.handleClick}>Get CV</Button>
     </LeftSection>
   </Section>
 );
