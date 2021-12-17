@@ -116,7 +116,7 @@ const Timeline = (props) => {
           );
         })}
       </CarouselButtons>
-      <Button onClick={props.handleClick}>Get CV</Button>
+      <Button onClick={props.handleClick} href="https://saiful-personal-bucket.s3.us-east-2.amazonaws.com/Curriculum+Vitae.pdf">Get CV</Button>
       <SectionDivider />
     </Section>
   );

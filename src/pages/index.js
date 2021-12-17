@@ -11,12 +11,12 @@ const Home = () => {
   return (
     <Layout>
       <Section grid>
-        <Hero handleClick={() => window.open('https://saiful-personal-bucket.s3.us-east-2.amazonaws.com/Resume.pdf')} />
+        <Hero />
         <BgAnimation />
       </Section>
       <Projects />
       <Technologies />
-      <Timeline handleClick={() => window.open('https://saiful-personal-bucket.s3.us-east-2.amazonaws.com/Curriculum+Vitae.pdf') } />
+      <Timeline />
       <Acomplishments />
     </Layout>
   );

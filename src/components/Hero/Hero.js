@@ -14,7 +14,7 @@ const Hero = (props) => (
       <SectionText>
       My Name is Muhd Saiful. I am a Front End and Mobile App Developer. Currently working at Azure Innovations Sdn Bhd as a Software Developer.
       </SectionText>
-      <Button onClick={props.handleClick}>Get Resume</Button>
+      <Button href="https://saiful-personal-bucket.s3.us-east-2.amazonaws.com/Resume.pdf">Get Resume</Button>
     </LeftSection>
   </Section>
 );
