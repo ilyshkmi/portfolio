@@ -12,10 +12,9 @@ const Hero = (props) => (
         My Personal Portfolio
       </SectionTitle>
       <SectionText>
-        I am a Front End and Mobile App Developer
+      My Name is Muhd Saiful. I am a Front End and Mobile App Developer. Currently working at Azure Innovations Sdn Bhd as a Software Developer.
       </SectionText>
       <Button onClick={props.handleClick}>Get Resume</Button>
-      <Button onClick={props.handleClick}>Get CV</Button>
     </LeftSection>
   </Section>
 );

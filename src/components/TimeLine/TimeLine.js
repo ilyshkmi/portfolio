@@ -3,10 +3,11 @@ import React, { useState, useRef, useEffect } from 'react';
 import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
+import Button from '../../styles/GlobalComponents/Button';
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
-const Timeline = () => {
+const Timeline = (props) => {
   const [activeItem, setActiveItem] = useState(0);
   const carouselRef = useRef();
 
@@ -49,7 +50,7 @@ const Timeline = () => {
       Software developer with around 1-year of experience in the mobile and web application field. 
       Passionate in game development, web application development, and software development 
       fields. Motivated, self-starting problem solver with a passion for code and design, who is also 
-      dedicated to lifelong learning..
+      dedicated to lifelong learning.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
@@ -115,6 +116,7 @@ const Timeline = () => {
           );
         })}
       </CarouselButtons>
+      <Button onClick={props.handleClick}>Get CV</Button>
       <SectionDivider />
     </Section>
   );
