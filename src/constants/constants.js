@@ -1,14 +1,14 @@
 export const projects = [
-  {
-    title: 'Tuition Management System',
-    description: "Using React, Node.js, Express & MongoDB. The system is used to manage daily tuition activity such as student registration, payment records, subject registration and many more. This system is expected to be publish on production on 2nd quarter of 2022 with a small to medium tuition business owner as the potential clients.",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: '#',
-    visit: '#',
-    id: 0,
-    status: 'ongoing',
-  },
+  // {
+  //   title: 'Tuition Management System',
+  //   description: "Using React, Node.js, Express & MongoDB. The system is used to manage daily tuition activity such as student registration, payment records, subject registration and many more. This system is expected to be publish on production on 2nd quarter of 2022 with a small to medium tuition business owner as the potential clients.",
+  //     image: '/images/1.png',
+  //     tags: ['Mongo', 'Express', 'React', 'Node'],
+  //   source: '#',
+  //   visit: '#',
+  //   id: 0,
+  //   status: 'ongoing',
+  // },
   // {
   //   title: 'E-Commerce',
   //   description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
