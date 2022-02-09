@@ -1,14 +1,14 @@
 export const projects = [
-  // {
-  //   title: 'Tuition Management System',
-  //   description: "Using React, Node.js, Express & MongoDB. The system is used to manage daily tuition activity such as student registration, payment records, subject registration and many more. This system is expected to be publish on production on 2nd quarter of 2022 with a small to medium tuition business owner as the potential clients.",
-  //     image: '/images/1.png',
-  //     tags: ['Mongo', 'Express', 'React', 'Node'],
-  //   source: '#',
-  //   visit: '#',
-  //   id: 0,
-  //   status: 'ongoing',
-  // },
+  {
+    title: 'Startup Landing Page',
+    description: "This is a simple landing page for startup company that can be used to presents their service and products to their potential clients.",
+      image: '/images/startup-landing-page.png',
+      tags: ['NextJS', 'Theme-UI', 'React'],
+    source: 'https://startup-landing-page.muhdsaiful.com',
+    visit: 'https://github.com/MuhdSaifulnizam15/landing-page',
+    id: 1,
+    status: 'completed',
+  },
   // {
   //   title: 'E-Commerce',
   //   description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
