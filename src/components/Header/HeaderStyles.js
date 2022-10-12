@@ -20,6 +20,7 @@ export const Container = styled.div`
 
 export const Span = styled.span`
   font-size: 2rem;
+  margin-left: 1 rem;
 `;
 
 export const Div1 = styled.div`
