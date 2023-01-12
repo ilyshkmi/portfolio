@@ -52,7 +52,8 @@ export const certification = [
   { date: 'April, 11 2020', title: 'YTM Big Data Analytics', provider: 'CADS' },
   { date: 'October 10, 2020', title: 'Certified Cyber Security Professional', provider: 'CCSD COUNCIL' },
   { date: 'October 31, 2021', title: 'Microsoft Certified: Azure Fundamentals', provider: 'Microsoft' },
-  { date: 'April 14, 2022', title: 'AWS Solutions Architect Associate', provider: 'AWS' },
+  { date: 'Dec 31, 2021', title: 'Certified Cloud Solutions Architect', provider: 'Asia Pacific University' },
+  { date: 'April 14, 2022', title: 'Certified Solutions Architect Associate', provider: 'Amazon Web Services' },
 ];
 
 export const upcoming = [
