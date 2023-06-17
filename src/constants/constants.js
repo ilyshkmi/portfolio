@@ -46,6 +46,7 @@ export const TimeLineData = [
   { year: 2017, text: 'Pursue my degree in Computer Science (Game Development) at Multimedia University', },
   { year: 2020, text: 'Worked as Front-end mobile app and web developer at Azure Innovations', },
   { year: 2022, text: 'Worked as Mobile App Developer at Rymnet Solutions Sdn. Bhd', },
+  { year: 2023, text: 'Worked as Software Developer at iSoftStone Sdn. Bhd', },
 ];
 
 export const certification = [
