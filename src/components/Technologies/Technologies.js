@@ -23,6 +23,8 @@ import {
   DiWindows,
   DiZend,
 } from "react-icons/di";
+import { SiCisco } from "react-icons/si";
+import { GiServerRack } from "react-icons/gi";
 import {
   Section,
   SectionDivider,
@@ -42,22 +44,32 @@ const Technologies = () => (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a few technologies in the web development and mobile app
-      development world such as React Native, Laravel, Codeigniter and React.js.
-      I have also worked with NoSQL databases such as MongoDB and I felt in love
+      I've worked with a few technologies in the Networking System such as Cisco
+      Networking Configuration and system development world such as React.js.
+      I have also worked with SQL databases such as MySQL and I felt in love
       with it.
     </SectionText>
     <List>
       <ListItem>
         <picture>
+          <SiCisco size="3rem" />
+          <GiServerRack size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Networking Configuration</ListTitle>
+          <ListParagraph>
+            Experience with Cisco Network Configuration.
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
           <DiJavascript size="3rem" />
-          <DiDart size="3rem" />
-          <DiPhp size="3rem" />
         </picture>
         <ListContainer>
           <ListTitle>Programming Languages</ListTitle>
           <ListParagraph>
-            Experience with JavaScript (ES6), Java, HTML, CSS, PHP, Dart, C# and
+            Experience with JavaScript (ES6), HTML, CSS, C# and
             C++.
           </ListParagraph>
         </ListContainer>
@@ -72,7 +84,7 @@ const Technologies = () => (
           <ListParagraph>
             Experience with <br />
             React.js, Node.js <br />
-            Next,js and Feather.js.
+            and Next,js.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -85,23 +97,7 @@ const Technologies = () => (
           <ListTitle>Databases</ListTitle>
           <ListParagraph>
             Experience with <br />
-            MySQL, MS SQL <br />
-            and MongoDB.
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <picture>
-          <DiReact size="3rem" />
-          <DiAndroid size="3rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle>Mobile Development</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            React Native, Flutter, <br />
-            Huawei, iOS and Android <br />
-            deployment.
+            MySQL.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -114,51 +110,32 @@ const Technologies = () => (
           <ListTitle>Web App Framework</ListTitle>
           <ListParagraph>
             Experience with <br />
-            laravel, Codeigniter, <br />
-            React.js, and Next.js.
+            React.js, and Next.js. <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <picture>
           <DiWindows size="3rem" />
-          <DiApple size="3rem" />
           <DiLinux size="2.5rem" />
         </picture>
         <ListContainer>
           <ListTitle>Operating System</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Linux (Ubuntu and Pop Os), <br />
-            Windows and MacOS.
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <picture>
-          <DiAws size="3rem" />
-          <DiDocker size="3rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle>DevOps Infra</ListTitle>
-          <ListParagraph>
-            Experience with AWS, <br />
-            Azure, Docker, PM2 <br />
-            and Digital Ocean.
+            Linux (Ubuntu), <br />
+            Windows.
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <picture>
           <DiGithub size="3rem" />
-          <DiAws size="3rem" />
         </picture>
         <ListContainer>
           <ListTitle>Version Control</ListTitle>
           <ListParagraph>
-            Experience with Github, <br />
-            AWS CodeCommit and <br />
-            and Azure Repos.
+            Experience with Github.<br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -170,9 +147,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>CSS Framework</ListTitle>
           <ListParagraph>
-            Experience with Bootstrap 4, <br />
-            Theme UI, Ant Design and <br />
-            and Material UI.
+            Experience with Bootstrap 4.<br />
           </ListParagraph>
         </ListContainer>
       </ListItem>

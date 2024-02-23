@@ -58,11 +58,11 @@ const Header = () => (
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href="https://github.com/MuhdSaifulnizam15" target="_blank">
+      <SocialIcons href="https://https://github.com/ilyshkmi" target="_blank">
         <AiFillGithub size="3rem" />
       </SocialIcons>
       <SocialIcons
-        href="https://www.linkedin.com/in/muhdsaifulnizam/"
+        href="https://www.linkedin.com/in/ilyas-hakimi/"
         target="_blank"
       >
         <AiFillLinkedin size="3rem" />

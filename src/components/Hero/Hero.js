@@ -12,9 +12,9 @@ const Hero = (props) => (
         My Personal Portfolio
       </SectionTitle>
       <SectionText>
-        Hi, My Name is Muhd Saiful. I am a Software Developer. Currently working at iSoftStone Sdn Bhd as a Software Developer. 
+        Hello, Ilyas Hakimi here. Fresh graduate from Universiti Malaysia Pahang Al-Sultan Abdullah. Recently completed my Industrial Training at Sony EMCS (Malaysia) Sdn Bhd as Web Developer. 
       </SectionText>
-      <Button href="https://saiful-personal-bucket.s3.us-east-2.amazonaws.com/Resume.pdf">Get Resume</Button>
+      <Button href="https://drive.google.com/file/d/1grkwifABkXspOQiaLha-MG9THx3mRY20/view?usp=sharing">Get Resume</Button>
     </LeftSection>
   </Section>
 );

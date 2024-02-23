@@ -10,12 +10,12 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:60182446467">+60 18-244 6467</LinkItem>
+          <LinkItem href="tel:60193069343">+60 19-306 9343</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:muhdsaifulnizam1998@gmail.com">
-            muhdsaifulnizam1998@gmail.com
+          <LinkItem href="mailto:ilyashakimi.work@gmail.com">
+            ilyashakimi.work@gmail.com
           </LinkItem>
         </LinkColumn>
       </LinkList>
@@ -24,10 +24,10 @@ const Footer = () => {
           <Slogan>Innovating one project at a time</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com/MuhdSaifulnizam15" target="_blank">
+          <SocialIcons href="https://github.com/ilyshkmi" target="_blank">
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.linkedin.com/in/muhdsaifulnizam/" target="_blank">
+          <SocialIcons href="https://www.linkedin.com/in/ilyashakimi" target="_blank">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
         </SocialContainer>

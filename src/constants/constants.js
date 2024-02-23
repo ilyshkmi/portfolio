@@ -1,34 +1,5 @@
 export const projects = [
-  {
-    title: 'Startup Landing Page',
-    description: "This is a simple landing page for startup company that can be used to presents their service and products to their potential clients.",
-      image: '/images/startup-landing-page.png',
-      tags: ['NextJS', 'Theme-UI', 'React'],
-    source: 'https://startup-landing-page.muhdsaiful.com',
-    visit: 'https://github.com/MuhdSaifulnizam15/landing-page',
-    id: 1,
-    status: 'completed',
-  },
-  {
-    title: 'Roadtaxcekap',
-    description:"Online roadtax and insurance renewal services.",
-    image: '/images/roadtaxcekap.png',
-    tags: ['NextJS', 'JavaScript'],
-    source: 'https://roadtaxcekap.com',
-    visit: 'https://github.com/MuhdSaifulnizam15/roadtaxcekap',
-    id: 2,
-    status: 'completed',
-  },
-  {
-    title: 'Rolexbarbershop',
-    description: "Simple POS System to record daily transaction and point reward management",
-    image: '/images/rolexbarbershop.png',
-    tags: ['React', 'MongoDB', 'NodeJS', 'Express'],
-    // source: 'https://app.rolexbarbershop.com',
-    // visit: 'https://github.com/MuhdSaifulnizam15/roadtaxcekap',
-    id: 3,
-    status: 'completed',
-  },
+
   {
     title: 'Coach Tracking System',
     description: "Web Application to tracking coach location on multiple site.",
@@ -52,19 +23,15 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2016, text: 'Started my 1 year matriculation program at Kolej Matrikulasi Selangor', },
-  { year: 2017, text: 'Pursue my degree in Computer Science (Game Development) at Multimedia University', },
-  { year: 2020, text: 'Worked as Front-end mobile app and web developer at Azure Innovations', },
-  { year: 2022, text: 'Worked as Mobile App Developer at Rymnet Solutions Sdn. Bhd', },
-  { year: 2023, text: 'Worked as Software Developer at iSoftStone Sdn. Bhd', },
+  { year: 2016, text: 'Started my 1 year Diploma in Information Technology (Digital Technology) at Politeknik Balik Pulau', },
+  { year: 2019, text: 'Worked as Technician BCS at Abad Kenanga Sdn. Bhd', },
+  { year: 2020, text: 'Pursue my degree in Bachelor Of Computer Science (Computer Systems & Networks) with Honors at Universiti Malaysia Pahang Al-Sultan Abdullah', },
 ];
 
 export const certification = [
-  { date: 'April, 11 2020', title: 'YTM Big Data Analytics', provider: 'CADS' },
-  { date: 'October 10, 2020', title: 'Certified Cyber Security Professional', provider: 'CCSD COUNCIL' },
-  { date: 'October 31, 2021', title: 'Microsoft Certified: Azure Fundamentals', provider: 'Microsoft' },
-  { date: 'Dec 31, 2021', title: 'Certified Cloud Solutions Architect', provider: 'Asia Pacific University' },
-  { date: 'April 14, 2022', title: 'Certified Solutions Architect Associate', provider: 'Amazon Web Services' },
+  { date: 'September, 5 2017', title: 'CCNA R&S: Introduction to Networks', provider: 'CISCO Networking Academy' },
+  { date: 'March 7, 2018', title: 'CCNA R&S: Routing and Switching Essentials', provider: 'CISCO Networking Academy' },
+  { date: 'October 20, 2020', title: 'CCNA R&S: Scaling Networks', provider: 'CISCO Networking Academy' },
 ];
 
 export const upcoming = [

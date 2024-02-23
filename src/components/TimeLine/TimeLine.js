@@ -68,11 +68,12 @@ const Timeline = (props) => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        Software developer with 2 years of experience in the mobile and web
-        application field. Passionate in software development fields. Motivated,
-        self-starting problem solver with a passion for code and design, who is
-        also dedicated to lifelong learning. Proficient in JavaScript, Next.js
-        and React Native.
+      Fresh Graduate student in Bachelor Of Computer Science (Computer Systems & 
+      Networks) with Honors that just completed Industrial Training as System 
+      Developer. Passionate in Networking and system development fields. Motivated,
+      self starting problem solver with a passion for code and design, networking system,
+      who is also dedicated to lifelongleraning. Proficient in JavaScript,Next.js and
+      Networking. 
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
