@@ -14,7 +14,7 @@ const Hero = (props) => (
       <SectionText>
         Hello, Ilyas Hakimi here. Fresh graduate from Universiti Malaysia Pahang Al-Sultan Abdullah. Recently completed my Industrial Training at Sony EMCS (Malaysia) Sdn Bhd as Web Developer. 
       </SectionText>
-      <Button href="https://drive.google.com/file/d/1grkwifABkXspOQiaLha-MG9THx3mRY20/view?usp=sharing">Get Resume</Button>
+      <Button href="https://drive.google.com/file/d/1Q-wazPvzoIXn_qGmQUknb10uTJCTyIf2/view?usp=sharing">Get Resume</Button>
     </LeftSection>
   </Section>
 );
