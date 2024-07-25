@@ -52,7 +52,7 @@ const Technologies = () => (
       I've worked with a few technologies in the Networking System such as Cisco
       Networking Configuration and system development world such as React.js.
       I have also worked with SQL databases such as MySQL and I felt in love
-      with it. Latest, I do work with Automation Anywhere to develop a automation bot.
+      with it. Latest, I develop automationbot by using Automation Anywhere.
     </SectionText>
     <List>
       <ListItem>
