@@ -23,8 +23,13 @@ import {
   DiWindows,
   DiZend,
 } from "react-icons/di";
+import {FaCentos} from "react-icons/fa"
 import { SiCisco } from "react-icons/si";
-import { GiServerRack } from "react-icons/gi";
+import { VscServerProcess } from "react-icons/vsc";
+import { 
+  GiServerRack,
+  GiArtificialIntelligence,
+} from "react-icons/gi";
 import {
   Section,
   SectionDivider,
@@ -118,6 +123,7 @@ const Technologies = () => (
         <picture>
           <DiWindows size="3rem" />
           <DiLinux size="2.5rem" />
+          <FaCentos size="3rem" />
         </picture>
         <ListContainer>
           <ListTitle>Operating System</ListTitle>
@@ -153,13 +159,13 @@ const Technologies = () => (
       </ListItem>
       <ListItem>
         <picture>
-          <DiCss3 size="3rem" />
-          <DiBootstrap size="3rem" />
+          <GiArtificialIntelligence size="3rem" />
+          <VscServerProcess size="3rem" />
         </picture>
         <ListContainer>
           <ListTitle>Automation Anywhere</ListTitle>
           <ListParagraph>
-            Experience with Automation Anywhere<br />
+            Experience with Automation Anywhere.<br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
