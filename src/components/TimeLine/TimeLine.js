@@ -68,12 +68,14 @@ const Timeline = (props) => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      Fresh Graduate student in Bachelor Of Computer Science (Computer Systems & 
-      Networks) with Honors that just completed Industrial Training as System 
+      Graduate student in Bachelor Of Computer Science (Computer Systems & 
+      Networks) with Honors that completed Industrial Training as System 
       Developer. Passionate in Networking and system development fields. Motivated,
       self starting problem solver with a passion for code and design, networking system,
       who is also dedicated to lifelongleraning. Proficient in JavaScript,Next.js and
-      Networking. 
+      Networking. Currently work as IT Officer that responsible to ensuring the smooth 
+      functioning of computer systems, networks, and software applications. Also involves 
+      manage in providing technical support, and implementing IT policies and procedures.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
