@@ -123,7 +123,7 @@ const Technologies = () => (
           <ListTitle>Operating System</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Linux (Ubuntu), <br />
+            Linux (Ubuntu & CentOS), <br />
             Windows.
           </ListParagraph>
         </ListContainer>
@@ -148,6 +148,18 @@ const Technologies = () => (
           <ListTitle>CSS Framework</ListTitle>
           <ListParagraph>
             Experience with Bootstrap 4.<br />
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <DiCss3 size="3rem" />
+          <DiBootstrap size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Automation Anywhere</ListTitle>
+          <ListParagraph>
+            Experience with Automation Anywhere<br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
