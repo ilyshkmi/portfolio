@@ -68,7 +68,7 @@ const Timeline = (props) => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      Graduate student in Bachelor Of Computer Science (Computer Systems & 
+      Graduate in Diploma of Information Technology (Digital Technology) and Bachelor Of Computer Science (Computer Systems & 
       Networks) with Honors that completed Industrial Training as System 
       Developer. Passionate in Networking and system development fields. Motivated,
       self starting problem solver with a passion for code and design, networking system,
@@ -148,7 +148,7 @@ const Timeline = (props) => {
       </CarouselButtons>
       <Button
         onClick={props.handleClick}
-        href="https://saiful-personal-bucket.s3.us-east-2.amazonaws.com/Curriculum+Vitae.pdf"
+        href="https://drive.google.com/file/d/1koSSA7rWS4ij-nedUxbORhSn3ea19lQz/view?usp=sharing"
       >
         Get CV
       </Button>
