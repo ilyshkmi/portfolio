@@ -148,7 +148,7 @@ const Timeline = (props) => {
       </CarouselButtons>
       <Button
         onClick={props.handleClick}
-        href="https://drive.google.com/file/d/1koSSA7rWS4ij-nedUxbORhSn3ea19lQz/view?usp=sharing"
+        href="https://drive.google.com/file/d/1cR2zdyVcgU1UY3KnW-aU0JTZMeV5O545/view?usp=sharing"
       >
         Get CV
       </Button>
