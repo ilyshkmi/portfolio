@@ -73,9 +73,11 @@ const Timeline = (props) => {
       Developer. Passionate in Networking and system development fields. Motivated,
       self starting problem solver with a passion for code and design, networking system,
       who is also dedicated to lifelongleraning. Proficient in JavaScript,Next.js and
-      Networking. Currently work as IT Officer that responsible to ensuring the smooth 
+      Networking. Previously work as IT Officer that responsible to ensuring the smooth 
       functioning of computer systems, networks, and software applications. Also involves 
-      manage in providing technical support, and implementing IT policies and procedures.
+      manage in providing technical support, and implementing IT policies and procedures. Currently work as System Engineer that 
+      Professional responsible for designing, implementing, managing, and maintaining an organization's IT infrastructure and systems 
+      to ensure operate efficiently and reliably.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
