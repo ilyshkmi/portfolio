@@ -62,7 +62,7 @@ const Header = () => (
         <AiFillGithub size="3rem" />
       </SocialIcons>
       <SocialIcons
-        href="https://www.linkedin.com/in/ilyas-hakimi/"
+        href="https://www.linkedin.com/in/ilyashakimi/"
         target="_blank"
       >
         <AiFillLinkedin size="3rem" />
