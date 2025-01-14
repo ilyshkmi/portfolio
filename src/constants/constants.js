@@ -28,7 +28,7 @@ export const TimeLineData = [
   { year: 2019, text: 'Worked as Technician BCS at Abad Kenanga Sdn Bhd', },
   { year: 2020, text: 'Pursue my degree in Bachelor Of Computer Science (Computer Systems & Networks) with Honors at Universiti Malaysia Pahang Al-Sultan Abdullah', },
   { year: 2023, text: 'Doing Bachelor Degree Internship as Web Developer Trainee at Sony EMCS (Malaysia) Sdn Bhd', },
-  { year: 2024, text: 'Work as IT Officer at Nissha Precisosion Technologies Malaysia Sdn Bhd', },
+  { year: 2024, text: 'Worked as IT Officer at Nissha Precisosion Technologies Malaysia Sdn Bhd', },
   { year: 2025, text: 'Work as System Engineer at YHCM Sdn Bhd', },
 ];
 
